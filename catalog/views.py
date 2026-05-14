@@ -1,4 +1,4 @@
-from rest_framework.response import HttpRespone
+from django.http import HttpResponse
 
 def index(request):
-    return HttpRespone("Catalog app is working")
+    return HttpResponse("Catalog app is working")
